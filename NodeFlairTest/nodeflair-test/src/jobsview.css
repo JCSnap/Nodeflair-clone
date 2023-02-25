@@ -1,0 +1,16 @@
+.jobs-view-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jobs-view-box {
+  width: 300px;
+  flex: 1;
+}
+
+.jobs-view-box-content-header-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}

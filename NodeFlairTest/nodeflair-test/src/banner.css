@@ -1,0 +1,82 @@
+.banner-outer-container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 275px;
+}
+
+.banner-inner-container {
+  height: 100%;
+  background-color: #dff8ea;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-clip: content-box;
+  border-radius: 20px;
+}
+
+.banner-content {
+  display: flex;
+  padding: 25px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.banner-image {
+  display: block;
+  width: 300px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  width: 35%;
+}
+
+.banner-text-container {
+  padding-left: 60px;
+  display: block;
+  width: 65%;
+}
+
+.banner-text-header {
+  text-align: start;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 1.32;
+  color: rgb(67, 67, 67);
+  font-family: Montserrat-bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+.banner-text-subheader {
+  text-align: start;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.32;
+  color: rgb(67, 67, 67);
+  font-family: Montserrat-normal;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 10px;
+}
+@font-face {
+  font-family: "Montserrat-bold";
+  src: url("./assets/Montserrat/static/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-normal";
+  src: url("./assets/Montserrat/static/Montserrat-Regular.ttf")
+    format("truetype");
+}
+.banner-button-container {
+  text-align: left;
+  padding-top: 40px;
+}
+.banner-button {
+  padding: 13px;
+  font-size: 22px;
+  font-family: Montserrat-bold;
+  border-radius: 12px;
+  border-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  background-color: rgb(31, 199, 106);
+}

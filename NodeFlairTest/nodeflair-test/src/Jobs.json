@@ -1,0 +1,25 @@
+{
+  "companies": [
+    {
+      "companyName": "Google",
+      "companyImageSrc": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+      "positionForHire": "Software Engineer",
+      "salary": "$120,000 - $150,000",
+      "programmingLanguages": ["JavaScript", "Python", "C++"]
+    },
+    {
+      "companyName": "Microsoft",
+      "companyImageSrc": "https://www.microsoft.com/en-us/Windows/images/WinBadge_Desktop.png",
+      "positionForHire": "Full Stack Developer",
+      "salary": "$100,000 - $140,000",
+      "programmingLanguages": ["JavaScript", "C#", "Java"]
+    },
+    {
+      "companyName": "Amazon",
+      "companyImageSrc": "https://www.amazon.com/favicon.ico",
+      "positionForHire": "DevOps Engineer",
+      "salary": "$110,000 - $160,000",
+      "programmingLanguages": ["JavaScript", "Python", "Bash"]
+    }
+  ]
+}
